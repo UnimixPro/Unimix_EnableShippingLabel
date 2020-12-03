@@ -1,0 +1,22 @@
+{
+    "name": "unimix/module-enableshippinglabel",
+    "description": "",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "\u0420\u0443\u0441\u0442\u0430\u043c \u0422\u0440\u0443\u0431\u043d\u0438\u043a\u043e\u0432",
+            "email": "trubnikov.rustam@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Unimix\\EnableShippingLabel\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}

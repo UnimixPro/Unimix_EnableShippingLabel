@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Shipping\Model\Carrier\AbstractCarrier">
+		<plugin disabled="false" name="Unimix_EnableShippingLabel_Plugin_Magento_Shipping_Model_Carrier_AbstractCarrier" sortOrder="10" type="Unimix\EnableShippingLabel\Plugin\Magento\Shipping\Model\Carrier\AbstractCarrier"/>
+	</type>
+</config>
